@@ -1,0 +1,66 @@
+* {
+}
+body {
+    margin: 0px;
+    background-color: gainsboro;  
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    background-color: white;
+    max-height: 190px;
+}
+.navimg {
+    height: 60%;
+    margin-right: 16vw;
+}
+nav a {
+    margin: 32px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    flex-grow: 1;
+    min-height: 146px;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyblock {
+    height: 600px;
+    align-items: center;
+}
+.bodyseg {
+    background-color: white;
+    padding: 60px;
+    margin: 7px;
+    text-align: center;
+    border-radius: 12px;
+}
+.textblocksmall {
+    width: 500px;
+}
+
+.fmessage {
+    background-color: rgb(255, 254, 182);
+    text-align: center;
+}

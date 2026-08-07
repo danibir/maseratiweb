@@ -1,0 +1,10 @@
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <title><%= metatitle %></title>
+</head>
+<body>
+    <% if (fMessage) { %>
+        <%- include('./fmessage', { fMessage }) %>
+    <% } %>
+    <%- include('./nav') %>
+    <div class="flexcol bodyblock">
