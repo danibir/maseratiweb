@@ -1,5 +1,5 @@
 const setLocals = (req, res, next) => {
-    res.locals.fmessage = NaN
+    res.locals.fMessage = NaN
     next()
 }
 

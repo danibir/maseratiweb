@@ -38,7 +38,7 @@ Promise.all([
 })
 .catch((err)=>{
     dbSetStatus(false)
-    setFMessageM('warning', "Advarsel! Mangler tilgang til databasen, noen sider er ikke tilgjenglige.")
+    app.use(setFMessageM('warning', "Advarsel! Mangler tilgang til databasen, noen sider er ikke tilgjenglige."))
     console.log(`Database connection failure. Error: ${err}`)
 })
 .finally(()=>{
